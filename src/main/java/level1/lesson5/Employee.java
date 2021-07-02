@@ -6,7 +6,7 @@ public class Employee {
     private String email;
     private int telephone;
     private int salary;
-    int age;
+    private int age;
 
     public Employee(String name, String profession, String email, int telephone, int salary, int age) {
         this.name = name;
@@ -32,6 +32,10 @@ public class Employee {
                 ", salary=" + salary +
                 ", age=" + age +
                 '}';
+    }
+
+    public int getAge() {
+        return age;
     }
 }
 

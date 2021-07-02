@@ -10,9 +10,6 @@ public class Main {
         Employee employee4 = new Employee("Savin Dmitrii Sergeevich", "ingener", "ing@mail.ru", 849533235, 180000, 40);
         Employee employee5 = new Employee("Klimova Veronika Ivanovna", "manager", "manag@mail.ru", 849565412, 120000, 33);
 
-
-
-
         employee1.info();
         employee2.info();
         employee3.info();
@@ -32,7 +29,6 @@ public class Main {
         for (Employee employee : Employees) {
             if (employee.age >= 40) {
                 System.out.println(employee);
-
             }
         }
     }

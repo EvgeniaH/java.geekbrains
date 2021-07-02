@@ -11,6 +11,8 @@ public class Main {
         Employee employee5 = new Employee("Klimova Veronika Ivanovna", "manager", "manag@mail.ru", 849565412, 120000, 33);
 
 
+
+
         employee1.info();
         employee2.info();
         employee3.info();
@@ -27,9 +29,9 @@ public class Main {
         System.out.println(Arrays.toString(Employees));
 
 
-        for (int i = 0; i < Employees.length; i++) {
-            if (Employees[i].age >= 40) {
-                System.out.println(Employees[i]);
+        for (Employee employee : Employees) {
+            if (employee.age >= 40) {
+                System.out.println(employee);
 
             }
         }
